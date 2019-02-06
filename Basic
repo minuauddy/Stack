@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+class Test
+{
+  static void stack_push(Stack<Integer> stack)
+  {
+    for(int i=0; i<5; i++)
+    {
+      stack.push(i);
+     }
+   }
+   static void stack_pop(Stack<Integer> stack)
+   {
+    System.out.println("\npop: ");
+    Integer y= (Integer) stack.pop();
+    System.out.println(y);
+   }
+   static void stack_peek(Stack<Integer> stack)
+   {
+    System.out.println("\nNUmber on top: "+stack.peek());
+    }
+  }  
+    
